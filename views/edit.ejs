@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="/stylesheets/profile.css">
+</head>
+<body>
+    <div class="main">
+        <div class="logoutBox">
+             <a href="/logout" class="logout">Logout</a>
+            </div>
+       
+      
+       
+       <h4 style="margin-bottom: 20px;">Update your post</h4>
+       <form action="/update/<%= post._id %>" method="post">
+        <textarea name="content" class="textarea" placeholder="what's on your mind ?"><%= post.content %></textarea>
+        <input type="submit" class="btn" value="Update post">
+
+       </form>
+       
