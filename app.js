@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+require('dotenv').config();
+require('./mongooseConnect')
 const userModel = require("./models/user");
 const postModel = require("./models/post");
 const cookieParser = require('cookie-parser');
