@@ -66,6 +66,9 @@ h3{
     background-color:#1f2937 ;
 
 }
+.postcontainer{
+    width: 100%;
+}
 .someuser{
     color: #3b82f6;
     margin-bottom: 8px;
@@ -90,6 +93,12 @@ h3{
 }
 @media (max-width: 600px) {
     .textarea {
+        width: 90%;
+    }
+    
+}
+@media (max-width: 600px) {
+    .Mypost {
         width: 90%;
     }
     
