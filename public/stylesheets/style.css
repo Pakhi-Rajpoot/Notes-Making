@@ -29,3 +29,12 @@ input{
 h1{
     margin-bottom: 20px;
 }
+.signin{
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color:#3B82F6 ;
+    
+}

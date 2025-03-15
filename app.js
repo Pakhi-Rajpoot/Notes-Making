@@ -39,7 +39,7 @@ app.post('/register' ,async (req, res)=>{
                 });
                 let token = jwt.sign({email:email , userid: createduser._id}, "shhhh");
                 res.cookie("token", token);
-                res.send("registered");
+                res.redirect("/login");
             })
         })
     }
