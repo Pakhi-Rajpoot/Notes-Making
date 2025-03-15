@@ -24,7 +24,7 @@ app.post('/register' ,async (req, res)=>{
     let{email, password, username, name, age} = req.body;
     let user =await userModel.findOne({email: email});
     if(user){
-        return res.status(500).send("User already registered");
+        res.send("user already registered");
     }
     else{
         bcrypt.genSalt(10 , (err, salt)=>{
