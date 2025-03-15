@@ -88,5 +88,11 @@ h3{
     background-color: transparent;
     text-decoration: none;
 }
+@media (max-width: 600px) {
+    .textarea {
+        width: 90%;
+    }
+    
+}
 
 
