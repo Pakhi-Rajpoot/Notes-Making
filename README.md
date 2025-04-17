@@ -1,7 +1,7 @@
 # 📝 Notes Making App
 
 ## 🌐 Live Demo  
-👉 [Visit the app here!](https://notes-making-2log.onrender.com)
+👉 [Visit the app here!](https://notes-making-x18u.onrender.com)
 
 # Features
 - User Authentication & Authorization (JWT)
